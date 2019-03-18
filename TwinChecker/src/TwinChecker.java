@@ -1,5 +1,6 @@
 /* Name: TwinChecker.java
  * Description: checks if the letters between two words are the same. If the letters are the same, the words are twins
+ * Author: Md Raihatul Jannat Saimon
  */
 
 import java.util.Scanner;
