@@ -8,6 +8,7 @@ import java.util.Scanner;
 //class
 public class TwinChecker {
 
+	//main method
 	public static void main(String[] args) {
 		
 		Scanner inp = new Scanner(System.in);
@@ -18,20 +19,23 @@ public class TwinChecker {
 		//first input
 		String a = inp.nextLine();
 		
+		String word1 = a.toLowerCase();//converts first input into lower case
+		
 		//prompt user
 		System.out.println("Type the second word");
 		
 		//second input
 		String b = inp.nextLine();
+		String word2 = b.toLowerCase();//converts second input into lower case
 		
 		int counter = 0;//counts the number of same letters
 		
 		//loop to check the number of same letters/characters
-		for (int i = 0; i < a.length(); i++) {
+		for (int i = 0; i < word1.length(); i++) {
 			
-			for (int n = 0; n < b.length(); n++) {
+			for (int n = 0; n < word2.length(); n++) {
 			
-				if(a.charAt(i) == b.charAt(n)) {
+				if(word1.charAt(i) == word2.charAt(n)) {
 					
 					counter++;
 				}
