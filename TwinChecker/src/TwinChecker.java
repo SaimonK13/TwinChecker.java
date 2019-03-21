@@ -18,7 +18,6 @@ public class TwinChecker {
 		
 		//first input
 		String a = inp.nextLine();
-		
 		String word1 = a.toLowerCase();//converts first input into lower case
 		
 		//prompt user
