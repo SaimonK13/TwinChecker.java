@@ -43,7 +43,8 @@ public class TwinChecker {
 		}
 		
 		//prints the result
-		if (counter == word1.length())
+		if (counter == word1.length() || counter == word1.length() + 2 )
+			
 			System.out.print("The words are twins");
 		
 		else
