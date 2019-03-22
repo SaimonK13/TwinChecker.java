@@ -27,23 +27,29 @@ public class TwinChecker {
 		String b = inp.nextLine();
 		String word2 = b.toLowerCase();//converts second input into lower case
 		
+		int z = word1.length();
+		
 		int counter = 0;//counts the number of same letters
 		
 		//loop to check the number of same letters/characters
 		for (int i = 0; i < word1.length(); i++) {
+			
+			z++;
 			
 			for (int n = 0; n < word2.length(); n++) {
 			
 				if(word1.charAt(i) == word2.charAt(n)) {
 					
 					counter++;
+					break;
+					
 				}
 			}
 			
 		}
 		
 		//prints the result
-		if (counter == word1.length() || counter == word1.length() + 2 )
+		if (counter == word2.length() )
 			
 			System.out.print("The words are twins");
 		
