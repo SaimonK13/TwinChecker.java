@@ -34,7 +34,7 @@ public class TwinChecker {
 			
 			for (int n = 0; n < word2.length(); n++) {
 			
-				if(word1.charAt(i) == word2.charAt(n)) {
+				if (word1.charAt(i) == word2.charAt(n)) {
 					
 					counter++;
 					
